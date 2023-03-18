@@ -8,8 +8,9 @@ EXEC_DIR=$(cd $(dirname $0); pwd)
 echo "EXEC_DIR=$EXEC_DIR\n"
 echo "SDCARD_DIR=$SDCARD_DIR"
 
+cd $SDCARD_DIR
 tar --zstd \
-    -cvf $EXEC_DIR/sdcard_backup_$(date +"%Y-%m-%d").tar.bz2 \
+    -cvf $EXEC_DIR/sdcard_backup_$(date +"%Y-%m-%d").tar.zst \
     --exclude="*/.*" \
     -T $EXEC_DIR/pull_file_list.txt
 
