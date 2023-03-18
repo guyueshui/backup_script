@@ -1,0 +1,19 @@
+billing
+Books
+DCIM
+dictionary
+Documents
+Download
+eudb_en
+Fonts
+GooglePinyinInput
+Movies
+Music
+neo_backuped_data
+Pictures
+Snapseed
+termux-backup.tar.gz
+
+# TitaniumBackup
+# ClearScanner
+# DataBackup
